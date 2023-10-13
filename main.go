@@ -7,6 +7,7 @@ func soma(a, b int) int {
 }
 
 func main() {
+
 	fmt.Println("HELLO WORLD!")
 
 	var idade int
@@ -24,5 +25,19 @@ func main() {
 	} else {
 		fmt.Println("menor")
 	}
+
+	fmt.Println(soma(5, 2))
+
+	type Pessoas struct {
+		Nome  string
+		Idade int
+	}
+	
+	for i := 0; i < 5; i++ {
+		fmt.Println(i)
+	}
+
+	pessoa := Pessoas{Nome: "Mario", Idade: 25}
+	fmt.Println(pessoa.Nome, "tem", pessoa.Idade, "anos")
 
 }
