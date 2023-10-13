@@ -32,12 +32,11 @@ func main() {
 		Nome  string
 		Idade int
 	}
-	
-	for i := 0; i < 5; i++ {
-		fmt.Println(i)
-	}
 
 	pessoa := Pessoas{Nome: "Mario", Idade: 25}
 	fmt.Println(pessoa.Nome, "tem", pessoa.Idade, "anos")
 
+	for j := 5; j < 10; j++ {
+		fmt.Println(j)
+	}
 }
